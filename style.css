@@ -26,5 +26,17 @@ body{
 }
 .btn{
     border: 1px solid;
-    
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+.btn.enabled{
+    back
 }
