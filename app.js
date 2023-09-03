@@ -28,7 +28,7 @@ const ticTacToe = (element, index) => {
     for (const condition of conditions) {
         const [a, b, c] = condition;
         if (cells[a] && cells[a] === cells[b] && cells[a] === cells[c]) {
-            // Update the 'result' element with the winner
+            
             result.textContent = `${currentPlayer} wins!`;
 
             // Disable all buttons after a win
@@ -49,7 +49,7 @@ const ticTacToe = (element, index) => {
 };
 
   
-// Function to reset the game
+
 const resetGame = () => {
     // Your code to reset the game state
     // ...
