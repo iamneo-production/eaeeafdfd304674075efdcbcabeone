@@ -15,5 +15,10 @@ let conditions=[
     [2,4,6]
 ];
 const tictacToe =(element,index)=>{
-    
+    if(cells[index]!=="||result.textContent!=="){
+        return;
+    }
+    cells[index]=currentPlayer;
+    element.textContent=currentPlayer;
+    for(const con)
 }
