@@ -45,5 +45,21 @@ body{
  cursor: pointer;
 }
 .btn.disabled{
-    
+    background-color: rgba(0,0,0,0.1);
+    color: #000;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.result-container{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #000;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.result{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
