@@ -1,1 +1,2 @@
-let cells=[]
+let cells=[",",",",",",",",","];
+let current
